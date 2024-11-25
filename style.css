@@ -1,6 +1,8 @@
 body {
     margin: 0;
+    background-color: transparent;
 }
+
 
 .menu {
     width: 100%;
@@ -15,15 +17,32 @@ body {
     text-decoration: none;
     font-size: 1.4em;
     margin-left: 10px;
-    color : rgb(22, 22, 22),
+    margin-right: 30px;
+    color : #2F4F4F;
     }
 
-.menu a {
+.menu a:hover {
     cursor: pointer;
+    color: #C71585;
 
 }
 
-    .title-center {
-        text-align: center;
-    }
-    
+.title-center {
+    text-align: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+.image-accueil{
+    display: flex;
+    width: 100%;
+    background-size:cover;
+}
+
+.introduction {
+    text-align: center;
+}
+ 
