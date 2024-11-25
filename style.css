@@ -1,18 +1,27 @@
+body {
+    margin: 0;
+}
+
 .menu {
     width: 100%;
-    margin: 0;
-    padding : 10px 20px;
+    height: 50px;
     display: flex;
     justify-content: flex-end;
-    background-color: rgba(245, 179, 206, 0.5);
+    align-items: center;
+    background-color: #FFF0F5;
 }
 
 .menu a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.4em;
     margin-left: 10px;
-    color : rgb(22, 22, 22)
+    color : rgb(22, 22, 22),
     }
+
+.menu a {
+    cursor: pointer;
+
+}
 
     .title-center {
         text-align: center;
